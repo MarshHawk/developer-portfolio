@@ -70,5 +70,7 @@ typings/
 template/
 
 # package json locks
-package-lock.json
+#We're supposed to commit this, ay?
+#IDK, look it up!
+#package-lock.json
 

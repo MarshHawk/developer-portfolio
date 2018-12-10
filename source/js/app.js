@@ -10,7 +10,7 @@ let store = createStore(combinedReducer, initialState);
 
 ReactDOM.render(
     <Provider store={store}>
-        {/* Insert container component here */}
+
         <RootContainer />
     </Provider>,
     document.getElementById('app')
