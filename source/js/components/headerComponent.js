@@ -5,7 +5,7 @@ let HeaderComponent = () => (
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <h1><a href="index.html" id="logo">Sean Glover's Developer Portfolio</a></h1>
+                    <h1><a href="index.html" id="logo">Sean Marsh Glover's Developer Portfolio</a></h1>
                             <nav id="nav">
                         <a href="index.html">Home</a>
                     </nav>
