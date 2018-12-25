@@ -1,7 +1,7 @@
 FROM alpine:edge
 #based on xueshanf/awscli
 
-ADD builds/app /app
+ADD build /app
 
 RUN apk --no-cache add \ 
  bash \
