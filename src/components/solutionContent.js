@@ -1,11 +1,11 @@
 import React from 'react';
 //import {markdown} from 'markdown';
 
-let SolutionComponent = () => (
+let SolutionContent = () => (
     <section id="content">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
+    <div className="container">
+        <div className="row">
+            <div className="col-12">
                     <section>
                         <header>
                             <h2>One Column</h2>
@@ -65,4 +65,4 @@ let SolutionComponent = () => (
 </section>
 )
 
-export default SolutionComponent
+export default SolutionContent;
