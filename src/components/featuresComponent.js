@@ -1,13 +1,13 @@
 import React from 'react';
 import FeatureContainer from '../containers/featureContainer';
+import CatFeature from './catFeature';
 
 let FeaturesComponent = () => (
     <section id="features">
 		<div className="container">
 			<div className="row">
-				<div className="col-3 col-6-medium col-12-small">
                     <FeatureContainer />
-                </div>
+                    <CatFeature />
             </div>
         </div>
     </section>

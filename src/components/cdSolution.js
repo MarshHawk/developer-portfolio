@@ -1,15 +1,15 @@
 import React from 'react';
-import SolutionContent from './solutionContent';
+import CdSolutionContent from './cdSolutionContent';
 import MenuBar from './menuBarComponent';
 
-let Solution = () => (
+let CdSolution = () => (
     <div className="main">
         <MenuBar />
         <div id="page-wrapper">
-            <SolutionContent />
+            <CdSolutionContent />
         </div>
     </div>
 )
 
-export default Solution
+export default CdSolution
 

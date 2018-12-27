@@ -6,7 +6,7 @@ import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 import combinedReducer from './reducers/combinedReducer';
 import RootContainer from './containers/rootContainer';
-import Solution from './components/solution';
+import CdSolution from './components/cdSolution';
 import './App.css';
 
 
@@ -20,7 +20,7 @@ class App extends Component {
         <Router>
             <Switch>
                 <Route exact path="/" component={RootContainer} />
-                <Route exact path="/solution" component={Solution} />
+                <Route exact path="/cd-solution" component={CdSolution} />
             </Switch>
         </Router>
     </Provider>

@@ -1,5 +1,5 @@
 import React from 'react';
-//import {markdown} from 'markdown';
+import {markdown} from 'markdown';
 
 let SolutionContent = () => (
     <section id="content">
